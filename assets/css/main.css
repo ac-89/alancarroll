@@ -8612,8 +8612,14 @@ body.is-preload .items.onload-fade-in > * > .inner {
   background-image: url(../../images/gardening.png);
 }
 
-.pc-garden:hover {
+.level-ground {
+  background-image: url(../../images/xuan-nguyen-jAke8NofTtE-unsplash-copy.jpg);
 }
+
+.fresh-plate {
+  background-image: url(../../images/restaurant-hero.png);
+}
+
 .site-link {
   transition: opacity 0.75s ease-in-out;
   background-size: cover;
