@@ -258,9 +258,9 @@ a {
 }
 
 a:hover {
-  text-decoration: none;
+  color: #fff;
+  text-shadow: 2px 1px 3px #666;
 }
-
 strong,
 b {
   font-weight: 400;
@@ -422,7 +422,8 @@ a {
 }
 
 a:hover {
-  color: #47d3e5;
+  color: #fff;
+  text-shadow: 2px 1px 3px #666;
 }
 
 strong,
@@ -2887,6 +2888,7 @@ ul.actions.stacked {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  align-items: center;
   margin-left: 0;
 }
 
@@ -2894,7 +2896,7 @@ ul.actions.stacked li {
   padding: 1.3rem 0 0 0;
 }
 
-ul.actions.stacked li:first-child {
+ul.actions.stacked > li:first-child {
   padding-top: 0;
 }
 
@@ -2950,7 +2952,7 @@ ul.actions.fit.stacked {
     width: 100%;
   }
 
-  ul.actions:not(.fixed) li:first-child {
+  ul.actions:not(.fixed) > li:first-child {
     padding-top: 0;
   }
 
@@ -3653,6 +3655,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
     -webkit-flex-direction: column-reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
+    align-items: center;
     text-align: center;
   }
 
@@ -8645,4 +8648,21 @@ body.is-preload .items.onload-fade-in > * > .inner {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
+}
+
+ul.actions.stacked ul {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+ul.actions-stacked > ul li {
+  margin: 10em;
+}
+div.content {
+  text-align: center;
+}
+
+.banner,
+#second {
+  background-color: #eee;
 }
