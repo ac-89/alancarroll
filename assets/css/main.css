@@ -8611,6 +8611,18 @@ body.is-preload .items.onload-fade-in > * > .inner {
 }
 
 /* Additional styles */
+.html-icon {
+  filter: invert(38%) sepia(37%) saturate(2679%) hue-rotate(345deg)
+    brightness(92%) contrast(93%);
+}
+.css-icon {
+  filter: invert(31%) sepia(100%) saturate(1018%) hue-rotate(180deg)
+    brightness(91%) contrast(87%);
+}
+.js-icon {
+  filter: invert(98%) sepia(96%) saturate(4756%) hue-rotate(336deg)
+    brightness(98%) contrast(98%);
+}
 .pc-garden {
   background-image: url(../../images/gardening.png);
 }
