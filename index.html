@@ -4,14 +4,11 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
   <head>
     <title>Alan Carroll</title>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
@@ -100,8 +97,8 @@
           </p>
           <ul class="actions stacked">
             <li>
-              <a href="#second" class="button smooth-scroll-middle"
-                >Learn More</a
+              <a href="#contact" class="button smooth-scroll-middle"
+                >What I Do</a
               >
             </li>
           </ul>
@@ -130,8 +127,8 @@
           </p>
           <ul class="actions stacked">
             <li>
-              <a href="#third" class="button smooth-scroll-middle"
-                >Learn More</a
+              <a href="#contact" class="button smooth-scroll-middle"
+                >Get in Touch</a
               >
             </li>
           </ul>
@@ -148,40 +145,42 @@
           <p>Here you will find a selection of my previous work.</p>
           <div class="items style1 medium onscroll-fade-in">
             <section class="site-link pc-garden">
-              <a href="http://pcgardening.netlify.app">
-                <div class="card-container">
-                  <span class="icon style major solid fa-leaf"></span>
-                  <h3 class="site-title">PC Gardening</h3>
-                  <p>Local gardening service based in Meath.</p>
-                </div>
-              </a>
-              <img
-                height="32px"
-                width="32px"
-                class="html-icon"
-                src="images/icons/html5.svg"
-                title="HTML5"
-                alt=""
-              />
-              <img
-                height="32px"
-                width="32px"
-                class="css-icon"
-                src="images/icons/css3.svg"
-                title="CSS3"
-                alt=""
-              />
-              <img
-                height="32px"
-                width="32px"
-                class="js-icon"
-                src="images/icons/javascript.svg"
-                title="Javascript"
-                alt=""
-              />
+              <div class="inner">
+                <a href="http://pcgardening.netlify.app" target="_blank">
+                  <div class="card-container">
+                    <span class="icon style major solid fa-leaf"></span>
+                    <h3 class="site-title">PC Gardening</h3>
+                    <p>Local gardening service based in Meath.</p>
+                  </div>
+                </a>
+                <img
+                  height="32px"
+                  width="32px"
+                  class="html-icon"
+                  src="images/icons/html5.svg"
+                  title="HTML5"
+                  alt=""
+                />
+                <img
+                  height="32px"
+                  width="32px"
+                  class="css-icon"
+                  src="images/icons/css3.svg"
+                  title="CSS3"
+                  alt=""
+                />
+                <img
+                  height="32px"
+                  width="32px"
+                  class="js-icon"
+                  src="images/icons/javascript.svg"
+                  title="Javascript"
+                  alt=""
+                />
+              </div>
             </section>
             <section class="site-link level-ground">
-              <a href="https://ac-89.github.io/level-ground/">
+              <a href="https://ac-89.github.io/level-ground/" target="_blank">
                 <div class="card-container">
                   <span class="icon solid style major fa-dumbbell"></span>
                   <h3>Level Ground</h3>
@@ -214,7 +213,10 @@
               />
             </section>
             <section class="site-link fresh-plate">
-              <a href="https://ac-89.github.io/sizzle-and-smoke/">
+              <a
+                href="https://ac-89.github.io/sizzle-and-smoke/"
+                target="_blank"
+              >
                 <div class="card-container">
                   <span class="icon solid style major fa-utensils"></span>
                   <h3>Sizzle &amp; Smoke</h3>
@@ -247,7 +249,7 @@
               />
             </section>
             <section class="site-link shufflify">
-              <a href="https://ac-89.github.io/shufflify/">
+              <a href="https://ac-89.github.io/shufflify/" target="_blank">
                 <div class="card-container">
                   <span class="icon solid style major fa-utensils"></span>
                   <h3>Shufflify</h3>
@@ -298,15 +300,20 @@
             <div class="fields">
               <div class="field half">
                 <label for="name">Name</label>
-                <input type="text" name="name" id="name" value="" />
+                <input type="text" name="name" id="name" value="" required />
               </div>
               <div class="field half">
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" value="" />
+                <input type="email" name="email" id="email" value="" required />
               </div>
               <div class="field">
                 <label for="message">Message</label>
-                <textarea name="message" id="message" rows="6"></textarea>
+                <textarea
+                  name="message"
+                  id="message"
+                  rows="6"
+                  required
+                ></textarea>
               </div>
             </div>
             <ul class="actions special">

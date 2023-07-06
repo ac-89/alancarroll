@@ -259,7 +259,7 @@ a {
 
 a:hover {
   color: #fff;
-  text-shadow: 2px 1px 3px #666;
+  /* text-shadow: 2px 1px 3px #666; */
 }
 strong,
 b {
@@ -272,7 +272,7 @@ i {
 }
 
 p {
-  margin: 0 0 2rem 0;
+  margin: 0 0 1rem 0;
 }
 
 p.major {
@@ -423,7 +423,7 @@ a {
 
 a:hover {
   color: #fff;
-  text-shadow: 2px 1px 3px #666;
+  /* text-shadow: 2px 1px 3px #666; */
 }
 
 strong,
@@ -8623,6 +8623,10 @@ body.is-preload .items.onload-fade-in > * > .inner {
   filter: invert(98%) sepia(96%) saturate(4756%) hue-rotate(336deg)
     brightness(98%) contrast(98%);
 }
+
+img[class*="-icon"] {
+  padding-bottom: 0.5em;
+}
 .pc-garden {
   background-image: url(../../images/gardening.png);
 }
@@ -8648,18 +8652,36 @@ body.is-preload .items.onload-fade-in > * > .inner {
   text-decoration: none;
 }
 
+.card-container:hover {
+  backdrop-filter: brightness(30%);
+}
+
 .site-link .inner {
   padding: 0;
 }
 
-.site-link .card-container {
+/* .site-link .card-container {
   color: rgba(255, 255, 255, 0);
+} */
+
+.site-link .card-container {
+  color: rgba(255, 255, 255, 1);
+  /* background-color: rgba(0, 0, 0, 0); */
+  padding: 2em 0;
+  margin: -2em;
+  width: fit-content;
+  height: fit-content;
+  /* backdrop-filter: blur(2px); */
 }
 
-.site-link .card-container:hover {
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(10px);
+/* .site-link .card-container:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+} */
+
+@media screen and (max-width: 768px) {
+  .site-link .card-container {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
 }
 
 ul.actions.stacked ul {
