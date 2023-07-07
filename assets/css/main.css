@@ -8678,7 +8678,7 @@ img[class*="-icon"] {
   background-color: rgba(0, 0, 0, 0.7);
 } */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .site-link .card-container {
     background-color: rgba(0, 0, 0, 0.4);
   }
@@ -8699,4 +8699,21 @@ div.content {
 .banner,
 #second {
   background-color: #eee;
+}
+
+@media screen and (max-width: 480px) {
+  .site-link {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .site-link .card-container {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    top: 0;
+  }
+  .site-link .card-container {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
 }
