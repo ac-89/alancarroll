@@ -7760,7 +7760,7 @@ body.is-preload .items.onload-fade-in > * > .inner {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 680px) {
   .items.style1.big > *:nth-child(-n + 2) {
     border-top-width: 1px;
   }
@@ -7770,7 +7770,7 @@ body.is-preload .items.onload-fade-in > * > .inner {
   }
 
   .items.style1.big > * {
-    padding: 2.625rem 2.625rem 0.625rem 2.625rem;
+    /* padding: 2.625rem 2.625rem 0.625rem 2.625rem; */
     width: 100%;
   }
 
@@ -8652,10 +8652,6 @@ img[class*="-icon"] {
   text-decoration: none;
 }
 
-.card-container:hover {
-  backdrop-filter: brightness(30%);
-}
-
 .site-link .inner {
   padding: 0;
 }
@@ -8666,12 +8662,8 @@ img[class*="-icon"] {
 
 .site-link .card-container {
   color: rgba(255, 255, 255, 1);
-  /* background-color: rgba(0, 0, 0, 0); */
-  padding: 2em 0;
-  margin: -2em;
-  width: fit-content;
-  height: fit-content;
-  /* backdrop-filter: blur(2px); */
+
+  backdrop-filter: brightness(50%);
 }
 
 /* .site-link .card-container:hover {
@@ -8679,8 +8671,18 @@ img[class*="-icon"] {
 } */
 
 @media screen and (max-width: 1200px) {
+  .site-link {
+    position: relative;
+  }
   .site-link .card-container {
     background-color: rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+  }
+
+  .project-links {
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
   }
 }
 
@@ -8701,7 +8703,7 @@ div.content {
   background-color: #eee;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 680px) {
   .site-link {
     background-size: cover;
     background-position: center;
@@ -8710,10 +8712,24 @@ div.content {
   .site-link .card-container {
     position: relative;
     margin: 0;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     top: 0;
   }
   .site-link .card-container {
     background-color: rgba(0, 0, 0, 0.4);
   }
+}
+.project-links {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-links a {
+  background-color: #fff;
 }
