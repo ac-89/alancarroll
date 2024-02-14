@@ -8634,6 +8634,10 @@ img[class*="-icon"] {
   padding-bottom: 0.5em;
 }
 
+.moveit {
+  background-image: url(../../images/Screenshot\ 2024-02-14\ 113518@0.5x.png);
+}
+
 .top-prune {
   background-image: url(../../images/Screenshot\ 2024-02-14\ 103123.png);
 }
