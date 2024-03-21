@@ -8633,16 +8633,23 @@ body.is-preload .items.onload-fade-in > * > .inner {
 img[class*="-icon"] {
   padding-bottom: 0.5em;
 }
+.tahc {
+  background-image: url(../../images/ezgif.tahc.gif);
+  background-position: center;
+}
 
 .moveit {
-  background-image: url(../../images/Screenshot\ 2024-02-14\ 113518@0.5x.png);
+  background-image: url(../../images/ezgif-moveit.gif);
+  background-position: center;
 }
 
 .top-prune {
-  background-image: url(../../images/Screenshot\ 2024-02-14\ 103123.png);
+  background-image: url(../../images/ezgif-topprune.gif);
+  background-position: center;
 }
 .pc-garden {
-  background-image: url(../../images/gardening.png);
+  background-image: url(../../images/ezgif.pcgardening.gif);
+  background-position: center;
 }
 
 .level-ground {
