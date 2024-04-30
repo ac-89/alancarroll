@@ -8817,3 +8817,7 @@ div.content {
 .actions-stacked > ul li a {
   color: #fff;
 }
+
+.banner .content img {
+  mix-blend-mode: color-burn;
+}
