@@ -4948,6 +4948,7 @@ body.is-preload .spotlight.onload-image-fade-in .image img {
   position: relative;
   overflow-x: hidden;
   text-align: left;
+  /* background-color: #edead0; */
 }
 
 .spotlight.style1 .content {
@@ -8187,7 +8188,10 @@ body.is-preload .items.onload-fade-in > * > .inner {
 }
 
 .items.style1 > * {
-  border-color: rgba(0, 0, 0, 0.2);
+  /* border-color: rgba(0, 0, 0, 0.2); */
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 0.25rem;
+  margin: 0 0 2rem 0;
 }
 
 .items.style2 {
@@ -8699,13 +8703,17 @@ img[class*="-icon"] {
 
 .site-link .card-container {
   color: rgba(255, 255, 255, 1);
-  background-color: rgba(0, 120, 222, 0.8);
+  background-color: rgba(0, 120, 222, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 25%;
+  padding: 1rem;
   /* backdrop-filter: brightness(50%); */
 }
 
-/* .site-link .card-container:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-} */
+.site-link .card-container:hover {
+  background-color: rgba(0, 120, 222, 0.9);
+  transition: all 0.25s ease-in-out;
+}
 
 @media screen and (max-width: 1200px) {
   .site-link {
@@ -8821,3 +8829,7 @@ div.content {
 .banner .content img {
   mix-blend-mode: color-burn;
 }
+/* 
+#third {
+  background-color: #edead0;
+} */
