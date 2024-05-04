@@ -8833,3 +8833,7 @@ div.content {
 #third {
   background-color: #edead0;
 } */
+
+.hidden {
+  visibility: hidden;
+}

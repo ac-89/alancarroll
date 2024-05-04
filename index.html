@@ -536,11 +536,17 @@
             If you are interested in collaborating on a project, please get in
             touch via the form below.
           </p>
-          <form method="post" action="#" data-netlify="true">
+          <form
+            method="post"
+            action="#"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+          >
             <div class="fields">
               <div class="field half">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" value="" required />
+                <input name="bot-field" type="text" class="hidden" />
               </div>
               <div class="field half">
                 <label for="email">Email</label>
