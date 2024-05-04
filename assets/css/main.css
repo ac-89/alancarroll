@@ -8837,3 +8837,7 @@ div.content {
 .hidden {
   visibility: hidden;
 }
+
+#first .actions.stacked #contact {
+  color: #000;
+}
